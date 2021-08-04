@@ -14,7 +14,8 @@ namespace XUnitTest.App
 
         public int Add(int a, int b)
         {
-            
+            _calculatoreService.Add(a, b);
+
             return _calculatoreService.Add(a, b);
         }
         public int Multipler(int a, int b)

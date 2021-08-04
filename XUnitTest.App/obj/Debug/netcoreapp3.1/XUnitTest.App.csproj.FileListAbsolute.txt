@@ -6,3 +6,4 @@ C:\Users\Melis\source\repos\XUnitTest.App\XUnitTest.App\obj\Debug\netcoreapp3.1\
 C:\Users\Melis\source\repos\XUnitTest.App\XUnitTest.App\obj\Debug\netcoreapp3.1\XUnitTest.App.csproj.CoreCompileInputs.cache
 C:\Users\Melis\source\repos\XUnitTest.App\XUnitTest.App\obj\Debug\netcoreapp3.1\XUnitTest.App.dll
 C:\Users\Melis\source\repos\XUnitTest.App\XUnitTest.App\obj\Debug\netcoreapp3.1\XUnitTest.App.pdb
+C:\Users\Melis\source\repos\XUnitTest.App\XUnitTest.App\obj\Debug\netcoreapp3.1\XUnitTest.App.csproj.AssemblyReference.cache
