@@ -14,8 +14,8 @@ namespace XUnitTest.Test
         public CalculatorTest()
         {
             myMock = new Mock<ICalculatorService>();
-            //this._calculator = new Calculator(myMock.Object);
-            this._calculator = new Calculator(new CalculatorService());
+            this._calculator = new Calculator(myMock.Object);
+            //this._calculator = new Calculator(new CalculatorService());
         }
 
         [Theory]
@@ -26,10 +26,11 @@ namespace XUnitTest.Test
             
             myMock.Setup(x => x.Add(a, b)).Returns(expectedTotal);
 
-
             var actualTotal = _calculator.Add(a, b);
 
             Assert.Equal(expectedTotal, actualTotal);
+
+            myMock.Verify(x => x.Add(a, b), Times.AtLeast(2)); 
         }
 
         [Theory]
